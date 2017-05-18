@@ -20,22 +20,5 @@ for line in file:
              if thisw in pronouns:
                  counter = counter +1
 print (counter)
-     #        else:
-      #           print("NOT")
-                  #return
-
-   #      else:
-    #         print("NOT")
-             #   return
-  #   else:
- #        continue;
-#    print("Not a tag question")
-
-
-    # isitatag(sent1)
-    # isitatag(sent2)
-    # isitatag(sent3)
-
-
 
 
