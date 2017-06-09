@@ -1,0 +1,13 @@
+import re
+def Find(pat, text):
+    match = re.search(pat, text)
+    if match:
+        print(match.group())
+  #  print('Not found')
+
+file = open('test.txt', 'r')
+for lines in file:
+ match = Find(r'\s\s\s+\w.+', lines)
+#print(match)
+
+
